@@ -16,6 +16,8 @@ public class Moscas extends Actor
     {
         // Add your action code here.
         move (1);
-        turn (10-Greenfoot.getRandomNumber(20));
+        if(Greenfoot.getRandomNumber (100)<20) {
+         turn (45-Greenfoot.getRandomNumber(90));
+        }
     }
 }
