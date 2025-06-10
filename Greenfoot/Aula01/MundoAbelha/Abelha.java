@@ -26,7 +26,7 @@ public class Abelha extends Actor
         indice = 0;
         imgs = new GreenfootImage [4]; // Definindo vetor  4 posições
         for (int i=0; i<4 ; i++){
-            imgs [1]  = new GreenfootImage ("bee0" + (i+1) + ".png");
+            imgs [i]  = new GreenfootImage ("bee0" + (i+1) + ".png");
         }
         setImage(imgs[indice]);
     }
@@ -37,7 +37,7 @@ public class Abelha extends Actor
      */
     public void act(){
         // Add your action code here.
-
+        move(1);
         if (Greenfoot.isKeyDown("A")){
             turn (-5);
         }
