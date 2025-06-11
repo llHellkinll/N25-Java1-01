@@ -23,5 +23,12 @@ public class Aranha extends Actor
         if(getX()<getWorld().getWidth()/2 && getY()<getWorld().getWidth()/2){
             move(2);
         }
+        interseptarAbelha();
+    }
+
+    public void interseptarAbelha(){
+        BeeWorld beeW = (BeeWorld) getWorld();
+        turnTowards(beeW.getAbelha ().getX(), 
+            beeW.getAbelha().getY());
     }
 }
