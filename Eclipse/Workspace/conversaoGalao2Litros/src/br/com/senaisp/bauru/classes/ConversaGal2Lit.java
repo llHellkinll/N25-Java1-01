@@ -11,7 +11,7 @@ public class ConversaGal2Lit {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Favor digitar a quantidade de galões: ");
 
-		final double GAL2LIT;
+		final double GAL2LIT = 10;
 		double galao = sc.nextDouble();
 		double litros = galao * 3.785;
 		//Fazendo a conversão e mostrando
