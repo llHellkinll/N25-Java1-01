@@ -6,8 +6,8 @@ public class Exemplo2 {
 		// TODO Auto-generated method stub
 		//Divisão entre 2 interios o resultado é inteiro
 		// A fração é desprezada!
-		
-System.out.println(1.0 /2 +0.2);
+
+		System.out.println(1.0 /2 +0.2);
 	}
 
 }
