@@ -1,0 +1,34 @@
+package br.com.senaisp.bauru.aula05;
+
+import java.util.Scanner;
+
+public class Exemplo07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite S ou N: ");
+		String res = sc.nextLine();
+		//Usando operador ternario
+		//testeLogico ? valor_se_verdade : valor_se_falso
+		System.out.println("Você digitou " + (res.charAt(0)=='S' ? "Sim" : "Não" ));
+		sc.close();
+		
+		
+		//teste logico if(se o valor x for menor ou maior) 
+		
+		//{}else if (Se não sera?)
+		
+		//float res =0f;
+		//res =d2;
+		//}else if (i1<=b3 && i1 <=c3){}
+		//if (i1<=c2);
+		//float res=0f
+		//res = d3;
+		//else if (i1 <=c3)
+		
+	}
+
+}
