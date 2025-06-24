@@ -1,0 +1,27 @@
+package br.com.senaisp.bauru.aula06;
+
+public class Exemplo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//Criando uma  matriz
+		//cinema com 5 fileiras e 9 cadeiras por fileiras
+		char [][] cinema = new char[5][9];
+		
+		//inicializando com_
+		for (int i=0;i<cinema.length;i++) {
+			//Preenchendo as poltronas
+
+	}//Criando uma  matriz
+	//cinema com 5 fileiras e 9 cadeiras por fileiras
+	char [][] cineama = new char[5][9];
+	
+	//inicializando com_
+	for (int i=0;i<cinema.length;i++) {
+		//Preenchendo as poltronas
+
+	}
+
+}

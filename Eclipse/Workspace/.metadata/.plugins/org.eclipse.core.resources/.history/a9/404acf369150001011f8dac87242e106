@@ -1,0 +1,47 @@
+package br.com.senaisp.bauru.aula07;
+
+public class Carta {
+	public static final String [] NAIPES = {"♦","♥", "♣", "♠"};
+	public static final String [] NUMEROS = {"A","2","3","4","5","6","7","8","9","10","J","Q","k"};
+	
+	private String naipe;
+	public String getNaipe() {
+		return naipe;
+	}
+
+	public void setNaipe(String naipe) {
+		this.naipe = naipe;
+	}
+
+	public String getNumero() {
+		return numero;
+	}
+
+	public void setNumero(String numero) {
+		this.numero = numero;
+	}
+
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
+
+	public static String[] getNaipes() {
+		return NAIPES;
+	}
+
+	public static String[] getNumeros() {
+		return NUMEROS;
+	}
+
+	private String numero;
+	private int valor;
+	
+    public Carta  (int np, int nm) {
+	 
+ }
+
+}
